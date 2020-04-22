@@ -35,7 +35,7 @@ def contact(request):
 
         # send_mail(subject, message, from_email). Check documentation for more customization
         # send_mail(
-        #     'Property listing inquiry for' + listing,
+        #     'Property listing inquiry for ' + listing,
         #     'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info.',
         #     'realisticdynasty8@gmail.com',
         #     [realtor_email, 'markdentoom@hotmail.nl'],
