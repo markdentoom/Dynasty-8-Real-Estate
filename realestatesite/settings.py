@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'oj*fcv*nrt7gm0vcqen*xitmzud38atqz5n@m(qx0$hq99wn*y'
+SECRET_KEY = 'obfuscated'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'realisticdynasty8.eu.pythonanywhere.com']
+ALLOWED_HOSTS = ['realisticdynasty8.eu.pythonanywhere.com']
 
 
 # Application definition
@@ -89,10 +89,10 @@ DATABASES = {
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'realestatesitedb',
+#         'NAME': 'obfuscated',
 #         'USER': 'postgres',
-#         'PASSWORD': '123456789',
-#         'HOST': 'localhost'
+#         'PASSWORD': 'obfuscated',
+#         'HOST': 'obfuscated'
 #     }
 # }
 
@@ -151,6 +151,6 @@ MESSAGE_TAGS = {
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'realisticdynasty8@gmail.com'  # Real emailaddress. All email sent to it gets redirected to my real email.
-EMAIL_HOST_PASSWORD = 'not my actual password'
+EMAIL_HOST_PASSWORD = 'obfuscated'
 EMAIL_PORT = 587
 # The rest of the code for the automated mailing is in 'contacts/views' under 'send_mail'
