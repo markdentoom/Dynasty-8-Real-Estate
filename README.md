@@ -34,7 +34,7 @@ This is a solo project. If you find any issues, please create in issue in the [I
 
 * **Mark den Toom** - *Initial work* - [Mark den Toom](https://github.com/markdentoom)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/MarkdenToom/Dynasty-8-Real-Estate/graphs/contributors) who participated in this project.
 
 ## License
 
