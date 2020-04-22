@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'oj*fcv*nrt7gm0vcqen*xitmzud38atqz5n@m(qx0$hq99wn*y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['realisticdynasty8.eu.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'realisticdynasty8.eu.pythonanywhere.com']
 
 
 # Application definition
@@ -77,7 +77,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'realestatesite.wsgi.application'
 
 
-# Database, deployed using SQLite due to
+# Database; deployed using SQLite due to pricing / stability issues using PostgreSQL
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 DATABASES = {
     'default': {
