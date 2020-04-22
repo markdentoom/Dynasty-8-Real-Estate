@@ -22,9 +22,12 @@ View the site [here](https://realisticdynasty8.eu.pythonanywhere.com/). If the s
 * [Bootstrap](https://getbootstrap.com/) - Frontend framework for styling and device scaling
 * HTML - Frontend visualization
 * CSS - Additional frontend styling
-* ~~[PostgreSQL](https://www.postgresql.org/) - Original database~~
-* [SQLite](https://www.sqlite.org/index.html) - Fallback database due to hosting issues with PostgreSQL
-* [PythonAnywhere](https://eu.pythonanywhere.com/) - Service used for deployment
+* JavaScript - Used to fade warnings
+* [PostgreSQL](https://www.postgresql.org/) - Database used during the original build and initial deployment
+* [SQLite](https://www.sqlite.org/index.html) - Fallback database due to pricing / stability issues with Heroku and HelioHost when using PostgreSQL
+* [Heroku](https://www.heroku.com/) - Original hosting service; quit using it due to pricing. Deployed using PostgreSQL
+* [HelioHost](https://www.heliohost.org/) - Second hosting service; quit using it due to server instability. Deployed using PostgreSQL
+* [PythonAnywhere](https://eu.pythonanywhere.com/) - Final hosting service used for deployment. Deployed using SQLite
 
 ## Contributing
 
@@ -38,7 +41,7 @@ See also the list of [contributors](https://github.com/MarkdenToom/Dynasty-8-Rea
 
 ## License
 
-This project is licensed under the Unlicense - see the [LICENSE.md](https://github.com/MarkdenToom/Dynasty-8-Real-estate/blob/master/LICENSE) file for details.
+This project is licensed under the Unlicense - see the [LICENSE](https://github.com/MarkdenToom/Dynasty-8-Real-estate/blob/master/LICENSE) file for details.
 
 ## Acknowledgments
 
