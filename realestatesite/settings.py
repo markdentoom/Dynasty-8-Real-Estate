@@ -154,3 +154,8 @@ EMAIL_HOST_USER = 'realisticdynasty8@gmail.com'  # Real emailaddress. All email 
 EMAIL_HOST_PASSWORD = 'obfuscated'
 EMAIL_PORT = 587
 # The rest of the code for the automated mailing is in 'contacts/views' under 'send_mail'
+
+# try:
+#     from .local_settings import *
+# except ImportError:
+#     pass
