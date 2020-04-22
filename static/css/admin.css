@@ -1,0 +1,22 @@
+#header{
+  background: #18713C;
+  color white;
+}
+#branding h1{
+  color: white;
+}
+a:link, a:visited{
+  color: black;
+}
+div.breadcrumbs{
+  background: #18713C;
+}
+.module h2, .module caption, .inline-group h2{
+  background: #18713C;
+}
+.button, input[type=submit], input[type=button], .submit-row input, a.button{
+  background: #18713C;
+}
+.button.default, input[type=submit].default, .submit-row input.default {
+  background: #18713C;
+}

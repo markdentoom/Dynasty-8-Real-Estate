@@ -1,0 +1,35 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{%static 'css/all.css'%}">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{%static 'css/bootstrap.css'%}">
+    <!-- Custom -->
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="{%static 'css/lightbox.min.css'%}">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="{%static 'img/logo_dark.png'%}"/>
+
+    <title>Dynasty 8 Real Estate {%block title%}{%endblock%}</title>
+  </head>
+  <body>
+    {%include 'partials/_topbar.html'%}
+    {%include 'partials/_navbar.html'%}
+
+    {%block content%}
+    {%endblock%}
+
+    {%include 'partials/_footer.html'%}
+
+    <script src="{%static 'js/jquery-3.3.1.min.js'%}"></script>
+    <script src="{%static 'js/bootstrap.bundle.min.js'%}"></script>
+    <script src="{%static 'js/lightbox.min.js'%}"></script>
+    <script src="{%static 'js/main.js'%}"></script>
+  </body>
+</html>

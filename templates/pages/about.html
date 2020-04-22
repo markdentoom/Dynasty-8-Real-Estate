@@ -1,0 +1,103 @@
+{%extends 'base.html'%}
+{%load static%}
+
+{%block title%} | About us {%endblock%}
+
+{%block content%}
+<section id="showcase-inner" class="py-5 text-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h1 class="display-4">About Dynasty 8 Real Estate</h1>
+        <p class="lead">The best move you'll ever make</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Breadcrumb -->
+<section id="bc" class="mt-3">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="{%url 'index'%}">
+            <i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="breadcrumb-item active"> About</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+{%include 'partials/_alerts.html'%}
+
+<section id="about" class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Prime property in the Los Santos area</h2>
+        <p class="lead">We have more real estate listings than any other broker in Los Santos. In this town, we know that biggest and best are the same thing.</p>
+        <img src="{%static 'img/about.jpg'%}" alt="">
+        <p class="mt-4">It's a buyer's market. It's a seller's market. It's whatever you want it to be. At Dynasty 8, your dreams come pre-approved.
+          <br><br>
+          For a professional, personal, sometimes inappropriate touch, look no further than Dynasty 8. Don't think of us as your realtor, think of us as your friend. A smarmy friend who puts their picture on everything like it's a high school yearbook and demands a percentage of your money to tell you things you already know, like "this is a bathroom" or "This garden would be great for your kids to play in" or "You won't fit in around here. You're black."
+        </p>
+      </div>
+      <div class="col-md-4">
+        {%if mvp_realtors%}
+          {%for realtor in mvp_realtors%}
+            <div class="card">
+              <img class="card-img-top" src="{{realtor.photo.url}}" alt="Seller of the month">
+              <div class="card-body">
+                <h5 class="card-title">Seller Of The Month</h5>
+                <h6 class="text-secondary">{{realtor.name}}</h6>
+                <p class="card-text">{{realtor.description}}</p>
+              </div>
+            </div>
+          {%endfor%}
+        {%endif%}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Work -->
+<section id="work" class="bg-dark text-white text-center">
+  <h2 class="display-4">Nobody has ever lost money in real estate.</h2>
+  <h4>Call Dynasty 8 today, and say hello to a good BUY!</h4>
+  <hr>
+  <a href="{%url 'listings'%}" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
+</section>
+
+<!-- Team -->
+<section id="team" class="py-5">
+  <div class="container">
+    <h2 class="text-center">Our Team</h2>
+    <div class="row text-center">
+      {%if realtors%}
+        {%for realtor in realtors%}
+          <div class="col-md-4">
+            <img src="{{realtor.photo.url}}" alt="" class="rounded-circle mb-3">
+            <h4>{{realtor.name}}</h4>
+            <p class="text-success">
+              <i class="fas fa-award text-success mb-3"></i> Realtor</p>
+            <hr>
+            <p>
+              <i class="fas fa-phone"></i> {{realtor.phone}}</p>
+            <p>
+              <i class="fas fa-envelope-open"></i> {{realtor.mail}}</p>
+          </div>
+        {%endfor%}
+      {%else%}
+        <div class="col-md-12">
+          <p>No realtors available.</p>
+        </div>
+      {%endif%}
+    </div>
+  </div>
+</section>
+{%endblock%}
