@@ -13,7 +13,7 @@ View the site [here](https://realisticdynasty8.eu.pythonanywhere.com/). If the s
 ### **Customized admin panel**
 ![image](https://user-images.githubusercontent.com/59030690/79970435-31df5400-8493-11ea-960c-9918a021dbe5.png)
 
-### **Working automated email on inqueries**
+### **Working automated email on inquiries**
 ![Email success](https://user-images.githubusercontent.com/59030690/79969877-61da2780-8492-11ea-8cc6-57582fb52397.PNG)
 
 ## Built With
