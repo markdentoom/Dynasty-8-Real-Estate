@@ -19,7 +19,6 @@ View the site [here](https://realisticdynasty8.eu.pythonanywhere.com/). If the s
 ## Built With
 * [Python](https://www.python.org/) - Programming language the backend is written in
 * [Django](https://www.djangoproject.com/) - Backend framework
-* [Bootstrap](https://getbootstrap.com/) - Frontend framework for styling and device scaling
 * HTML - Frontend visualization
 * CSS - Additional frontend styling
 * JavaScript - Used to fade warnings
