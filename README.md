@@ -4,7 +4,7 @@ A modern, realistic version of the Real Estate website from Grand Theft Auto V.
 
 ## Getting Started
 
-View the site [here](https://realisticdynasty8.eu.pythonanywhere.com/). If the site is down, [send me an email](mailto:markdentoom@hotmail.com?subject=[GitHub]%20Dynasty-8-Real-Estate%20is%20down!) and I will restart it.
+The hosting license has expired. This project can now only be ran locally.
 
 ## Notable features:
 ### **Stackable search queries**
