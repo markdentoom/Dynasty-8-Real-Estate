@@ -30,7 +30,7 @@ The hosting license has expired. This project can now only be ran locally.
 
 ## Contributing
 
-This is a solo project. If you find any issues, please create in issue in the [Issues tab](https://github.com/MarkdenToom/Dynasty-8-Real-estate/issues).
+This is a solo project. If you find any issues, please create an issue in the [Issues tab](https://github.com/MarkdenToom/Dynasty-8-Real-estate/issues).
 
 ## Authors
 
