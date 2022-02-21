@@ -16,7 +16,7 @@ The hosting license has expired. This project can now only be ran locally.
 ### **Automated email on inquiries**
 ![Email success](https://user-images.githubusercontent.com/59030690/79969877-61da2780-8492-11ea-8cc6-57582fb52397.PNG)
 
-## Built With
+## Built using
 * `Django`
 * `Javascript`
 * `Bootstrap`
