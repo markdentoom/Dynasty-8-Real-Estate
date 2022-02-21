@@ -17,10 +17,10 @@ The hosting license has expired. This project can now only be ran locally.
 ![Email success](https://user-images.githubusercontent.com/59030690/79969877-61da2780-8492-11ea-8cc6-57582fb52397.PNG)
 
 ## Built using
-* `Django`
-* `Javascript`
-* `Bootstrap`
-* `PostgreSQL` Database used during development and for deployment on Heroku and HelioHost. Deployed on PythonAnywhere using SQLite.
+* Django
+* Javascript
+* Bootstrap
+* PostgreSQL - Database used during development and for deployment on Heroku and HelioHost. Deployed on PythonAnywhere using SQLite.
 
 ## Contributing
 
